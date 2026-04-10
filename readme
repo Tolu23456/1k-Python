@@ -1,0 +1,596 @@
+---
+
+**Python_Projects_List.txt**
+
+---
+
+**Project 1 – Simple Calculator**
+**Topic:** Variables
+
+**Task:**
+Create a program that takes two numbers and prints their sum, difference, product, and division.
+
+**Hints:**
+
+* Use variables to store user input.
+* Convert input to `int` or `float`.
+
+**Example expected output:**
+
+```
+Enter first number: 10
+Enter second number: 5
+Sum: 15
+Difference: 5
+Product: 50
+Division: 2.0
+```
+
+---
+
+**Project 2 – Age Checker**
+**Topic:** Datatypes
+
+**Task:**
+Ask the user for their age and tell them if they are a child, teen, adult, or senior.
+
+**Hints:**
+
+* Use integers for age.
+* Use `if-elif-else` to determine category.
+
+**Example expected output:**
+
+```
+Enter your age: 16
+You are a teenager.
+```
+
+---
+
+**Project 3 – Odd or Even**
+**Topic:** Conditionals
+
+**Task:**
+Take a number from the user and print if it’s odd or even.
+
+**Hints:**
+
+* Use modulus `%` operator.
+* Use an `if-else` statement.
+
+**Example expected output:**
+
+```
+Enter a number: 7
+7 is odd.
+```
+
+---
+
+**Project 4 – Sum of Numbers Using Loop**
+**Topic:** Loops
+
+**Task:**
+Calculate the sum of all numbers from 1 to `n` using a `for` loop.
+
+**Hints:**
+
+* Use `range(1, n+1)`.
+* Keep adding numbers to a total variable.
+
+**Example expected output:**
+
+```
+Enter n: 5
+Sum: 15
+```
+
+---
+
+**Project 5 – Type Conversion**
+**Topic:** Type Casting
+
+**Task:**
+Ask the user for a number as a string, convert it to integer, then float, and print both.
+
+**Hints:**
+
+* Use `int()` and `float()` functions.
+
+**Example expected output:**
+
+```
+Enter a number: 12
+Integer: 12
+Float: 12.0
+```
+
+---
+
+**Project 6 – Divide Safely**
+**Topic:** Exception
+
+**Task:**
+Ask the user for two numbers and divide them. Handle division by zero.
+
+**Hints:**
+
+* Use `try-except` block.
+* Catch `ZeroDivisionError`.
+
+**Example expected output:**
+
+```
+Enter first number: 10
+Enter second number: 0
+Cannot divide by zero!
+```
+
+---
+
+**Project 7 – Greeting Function**
+**Topic:** Functions
+
+**Task:**
+Write a function that takes a name and prints “Hello, <name>!”
+
+**Hints:**
+
+* Define a function with `def`.
+* Use a parameter for the name.
+
+**Example expected output:**
+
+```
+Enter your name: Alice
+Hello, Alice!
+```
+
+---
+
+**Project 8 – Sum List Elements**
+**Topic:** List
+
+**Task:**
+Create a list of numbers and print the sum of its elements.
+
+**Hints:**
+
+* Use `sum()` function or a loop.
+
+**Example expected output:**
+
+```
+Numbers: [1, 2, 3, 4, 5]
+Sum: 15
+```
+
+---
+
+**Project 9 – Max in Tuple**
+**Topic:** Tuples
+
+**Task:**
+Create a tuple of numbers and print the largest value.
+
+**Hints:**
+
+* Use `max()` function.
+* Tuples are immutable.
+
+**Example expected output:**
+
+```
+Numbers: (4, 7, 1, 9)
+Maximum: 9
+```
+
+---
+
+**Project 10 – Contact Book**
+**Topic:** Dictionaries
+
+**Task:**
+Store names and phone numbers in a dictionary and allow the user to search by name.
+
+**Hints:**
+
+* Use `dict.get()` to safely get values.
+
+**Example expected output:**
+
+```
+Enter name to search: Bob
+Phone: 123-456-7890
+```
+
+---
+
+**Project 11 – Student Grades**
+**Topic:** Class
+
+**Task:**
+Create a `Student` class with attributes `name` and `grades`, and methods `add_grade()`, `average()`, `display()`.
+
+**Hints:**
+
+* Use `self.grades` to store grades.
+* `average()` should calculate mean.
+
+**Example expected output:**
+
+```
+Student: Alice
+Grades: [80, 90, 70]
+Average: 80.0
+```
+
+---
+
+**Project 12 – Temperature Converter**
+**Topic:** Variables
+
+**Task:**
+Convert Celsius to Fahrenheit and vice versa.
+
+**Hints:**
+
+* Use the formula F = (C * 9/5) + 32
+
+**Example expected output:**
+
+```
+Enter temperature in Celsius: 25
+Temperature in Fahrenheit: 77.0
+```
+
+---
+
+**Project 13 – Even Numbers List**
+**Topic:** Loops
+
+**Task:**
+Print all even numbers from 1 to `n`.
+
+**Hints:**
+
+* Use `range()` with step 2 or modulus `%`.
+
+**Example expected output:**
+
+```
+Enter n: 10
+Even numbers: 2 4 6 8 10
+```
+
+---
+
+**Project 14 – Voting Eligibility**
+**Topic:** Conditionals
+
+**Task:**
+Ask for age and print if user can vote.
+
+**Hints:**
+
+* Voting age = 18
+
+**Example expected output:**
+
+```
+Enter your age: 17
+Not eligible to vote.
+```
+
+---
+
+**Project 15 – Factorial Using Function**
+**Topic:** Functions
+
+**Task:**
+Create a function that returns factorial of a number.
+
+**Hints:**
+
+* Use `for` loop or recursion.
+
+**Example expected output:**
+
+```
+Enter number: 5
+Factorial: 120
+```
+
+---
+
+**Project 16 – Reverse a List**
+**Topic:** List
+
+**Task:**
+Reverse a given list without using built-in `reverse()` function.
+
+**Hints:**
+
+* Use slicing `list[::-1]` or a loop.
+
+**Example expected output:**
+
+```
+Original: [1,2,3,4]
+Reversed: [4,3,2,1]
+```
+
+---
+
+**Project 17 – Count Characters in String**
+**Topic:** Datatypes
+
+**Task:**
+Ask user for a string and count number of characters.
+
+**Hints:**
+
+* Use `len()` function.
+
+**Example expected output:**
+
+```
+Enter string: hello
+Length: 5
+```
+
+---
+
+**Project 18 – Sum of Even Numbers**
+**Topic:** Loops
+
+**Task:**
+Find the sum of all even numbers in a list.
+
+**Hints:**
+
+* Iterate over list and add if number % 2 == 0
+
+**Example expected output:**
+
+```
+List: [1,2,3,4,5]
+Sum of evens: 6
+```
+
+---
+
+**Project 19 – Tuple to List Conversion**
+**Topic:** Type Casting
+
+**Task:**
+Convert a tuple to a list and print it.
+
+**Hints:**
+
+* Use `list()` function
+
+**Example expected output:**
+
+```
+Tuple: (1,2,3)
+List: [1,2,3]
+```
+
+---
+
+**Project 20 – Dictionary Merge**
+**Topic:** Dictionaries
+
+**Task:**
+Merge two dictionaries and print the result.
+
+**Hints:**
+
+* Use `{**dict1, **dict2}`
+
+**Example expected output:**
+
+```
+Dict1: {'a':1}
+Dict2: {'b':2}
+Merged: {'a':1, 'b':2}
+```
+
+---
+
+**Project 21 – Calculator Class**
+**Topic:** Class
+
+**Task:**
+Create a `Calculator` class with methods `add`, `subtract`, `multiply`, `divide`.
+
+**Hints:**
+
+* Use `self` and methods for operations.
+
+**Example expected output:**
+
+```
+Add: 5
+Subtract: 1
+Multiply: 6
+Divide: 2.0
+```
+
+---
+
+**Project 22 – List Average**
+**Topic:** List
+
+**Task:**
+Calculate the average of numbers in a list.
+
+**Hints:**
+
+* Use `sum()` and `len()`
+
+**Example expected output:**
+
+```
+List: [2,4,6]
+Average: 4.0
+```
+
+---
+
+**Project 23 – Check Prime**
+**Topic:** Conditionals & Loops
+
+**Task:**
+Ask a number and check if it is prime.
+
+**Hints:**
+
+* Loop from 2 to n-1 and check divisibility
+
+**Example expected output:**
+
+```
+Enter number: 7
+7 is prime
+```
+
+---
+
+**Project 24 – Input Validation**
+**Topic:** Exception
+
+**Task:**
+Ask user to enter an integer. Handle if they enter non-integer.
+
+**Hints:**
+
+* Use `try-except` with `ValueError`
+
+**Example expected output:**
+
+```
+Enter number: abc
+Invalid input!
+```
+
+---
+
+**Project 25 – Multiplication Table**
+**Topic:** Loops
+
+**Task:**
+Print multiplication table of a given number.
+
+**Hints:**
+
+* Use `for` loop from 1 to 10
+
+**Example expected output:**
+
+```
+Enter number: 3
+3 x 1 = 3
+...
+3 x 10 = 30
+```
+
+---
+
+**Project 26 – Swap Two Numbers**
+**Topic:** Variables
+
+**Task:**
+Swap two numbers without using a third variable.
+
+**Hints:**
+
+* Use `a, b = b, a`
+
+**Example expected output:**
+
+```
+Before swap: a=5, b=10
+After swap: a=10, b=5
+```
+
+---
+
+**Project 27 – Celsius to Kelvin**
+**Topic:** Type Casting & Variables
+
+**Task:**
+Convert Celsius to Kelvin.
+
+**Hints:**
+
+* Kelvin = Celsius + 273.15
+
+**Example expected output:**
+
+```
+Celsius: 25
+Kelvin: 298.15
+```
+
+---
+
+**Project 28 – Count Vowels in String**
+**Topic:** Loops & Strings
+
+**Task:**
+Count number of vowels in a given string.
+
+**Hints:**
+
+* Loop through string and check if character in 'aeiou'
+
+**Example expected output:**
+
+```
+Enter string: hello
+Number of vowels: 2
+```
+
+---
+
+**Project 29 – Tuple Unpacking**
+**Topic:** Tuples
+
+**Task:**
+Unpack a tuple of three elements into separate variables.
+
+**Hints:**
+
+* Use `a,b,c = tuple`
+
+**Example expected output:**
+
+```
+Tuple: (1,2,3)
+a=1, b=2, c=3
+```
+
+---
+
+**Project 30 – Dictionary Keys and Values**
+**Topic:** Dictionaries
+
+**Task:**
+Print all keys and values of a dictionary separately.
+
+**Hints:**
+
+* Use `.keys()` and `.values()`
+
+**Example expected output:**
+
+```
+Dict: {'a':1,'b':2}
+Keys: a b
+Values: 1 2
+```
+
+---

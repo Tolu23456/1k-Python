@@ -1,0 +1,22 @@
+I am learning Python and practicing by building projects step-by-step.
+
+Give me one Python project appropriate for my current level (early–intermediate). The project should help me practice classes, loops, functions, lists/dictionaries, and object interaction.
+
+For the project, provide:
+
+1. The **project name**
+2. The **goal of the project**
+3. The **concepts being practiced**
+4. The **requirements / features the program must have**
+5. **Hints** to guide me without giving the solution
+6. **Example output** showing how the program should behave
+7. **Optional challenge features** if I want to go further
+
+Do NOT give the full solution code.
+
+After I finish the project, I will submit my code and you should review it, point out mistakes, suggest improvements, and rate it based on:
+
+* Structure
+* Logic
+* Readability
+* Python style

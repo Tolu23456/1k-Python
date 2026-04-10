@@ -1,0 +1,264 @@
+============================================================
+PYTHON MASTERY ROADMAP: 60 PROJECTS (EASY TO HARD)
+============================================================
+
+TOPIC 1: LOOPS (FOR & WHILE)
+------------------------------------------------------------
+1. Number Generator: Print numbers 1 to 20.
+   - Hint: Use range().
+   - Components: for loop, i.
+   
+2. Even/Odd Filter: Print "2 is Even", "3 is Odd", etc.
+   - Hint: Use % operator.
+   - Components: if, range(1, 11).
+   
+3. Countdown Timer: 10 to 1, then "Blast off!".
+   - Hint: Use a negative step in range.
+   - Components: for, print().
+   
+4. Sum of N Numbers: Calculate total sum of inputs.
+   - Hint: Initialize a total variable at 0.
+   - Components: total, input().
+   
+5. Password Guess: Keep asking until correct.
+   - Hint: Use a while loop.
+   - Components: secret_pass, guess.
+   
+6. Pattern Builder: Build a triangle of '*' characters.
+   - Hint: Multiply strings by loop index.
+   - Components: rows, for.
+   
+7. The Multiplier: Create a 1-12 multiplication table.
+   - Hint: Use nested for loops.
+   - Components: i, j.
+   
+8. Average Calculator: Average numbers until "stop" is typed.
+   - Hint: Use while True and break.
+   - Components: total, count, break.
+   
+9. Prime Checker: Verify if a number is prime.
+   - Hint: Check for factors from 2 to square root of n.
+   - Components: flag, break.
+   
+10. Number Guessing Game: "Higher", "Lower", or "Correct!".
+    - Hint: Use random.randint.
+    - Components: random, attempts.
+
+    Done ✔
+
+TOPIC 2: COMPARISON OPERATORS
+------------------------------------------------------------
+1. Legal Driver: Check if age is 18+.
+   - Hint: Use >= operator.
+   - Components: age.
+   
+2. Max of Two: Identify the larger of two numbers.
+   - Hint: Use if/else.
+   - Components: num1, num2.
+   
+3. Pass/Fail: "Passed" if score > 50.
+   - Hint: Basic comparison.
+   - Components: score.
+   
+4. The "Not" Checker: "Access Denied" if user is "Banned".
+   - Hint: Use != or "not" keyword.
+   - Components: status.
+   
+5. Range Guard: Check if value is between 10 and 50.
+   - Hint: Use "and" keyword.
+   - Components: val.
+   
+6. Identity Match: Check if names match (ignore case).
+   - Hint: Use .lower() then ==.
+   - Components: name1, name2.
+   
+7. Triangle Valid: Check if 3 sides can form a triangle.
+   - Hint: Sum of any 2 sides must be > 3rd side.
+   - Components: a, b, c.
+   
+8. Leap Year: Determine if a year is a leap year.
+   - Hint: Use n % 4 == 0 logic.
+   - Components: year.
+   
+9. Discount Checker: Apply discount if price > 100.
+   - Hint: if price > 100.
+   - Components: original, final.
+   
+10. BMI Category: Categorize BMI results.
+    - Hint: Use multiple elif ranges.
+    - Components: height, weight.
+
+    Done ✔
+
+TOPIC 3: LISTS
+------------------------------------------------------------
+1. Favorite Colors: Print the 3rd color in a list.
+   - Hint: Indexing starts at 0.
+   - Components: colors = [].
+   
+2. Grocery Adder: Add items to a list.
+   - Hint: Use .append().
+   - Components: items list.
+   
+3. The Remover: Remove the last item from a list.
+   - Hint: Use .pop().
+   - Components: my_list.
+   
+4. List Searcher: Check if "Banana" is in list.
+   - Hint: Use "in" keyword.
+   - Components: fruits list.
+   
+5. Sorter: Sort a list of random numbers.
+   - Hint: Use .sort().
+   - Components: numbers list.
+   
+6. Value Swapper: Swap index 0 and 1.
+   - Hint: Use a, b = b, a logic.
+   - Components: temp or tuple unpacking.
+   
+7. Unique List: Remove duplicates from a list.
+   - Hint: Convert to set() then back to list().
+   - Components: original, unique.
+   
+8. The Joiner: Create "Hello-World-Python" from a list.
+   - Hint: Use "-".join().
+   - Components: words list.
+   
+9. List Statistics: Find Max, Min, and Sum.
+   - Hint: Use max(), min(), sum().
+   - Components: data_points.
+   
+10. To-Do Manager: Add, View, or Delete items.
+    - Hint: Combine a loop with list methods.
+    - Components: todo_list, while.
+
+TOPIC 4: DICTIONARIES
+------------------------------------------------------------
+1. ID Badge: Store and print Name and Age.
+   - Hint: Use key-value pairs.
+   - Components: user_dict.
+   
+2. Price Look-up: Get price of "Apple" from dict.
+   - Hint: Use dict[key].
+   - Components: inventory.
+   
+3. Updating Stats: Update age in a profile.
+   - Hint: dict[key] = new_value.
+   - Components: profile.
+
+4. Key Checker: Check if a key exists in dict.
+   - Hint: if key in dict.
+   - Components: database.
+   
+5. Merging Dictionaries: Combine two dictionaries.
+   - Hint: Use .update().
+   - Components: dictA, dictB.
+   
+6. Dictionary Loop: Print all keys and values.
+   - Hint: Use .items().
+   - Components: for k, v in...
+   
+7. Counting Letters: Count occurrences in a string.
+   - Hint: Initialize key at 0 or increment if exists.
+   - Components: string, counts_dict.
+   
+8. Nested Employee: Access a phone number inside a dict.
+   - Hint: dict["manager"]["phone"].
+   - Components: company_dict.
+   
+9. The Map Filter: Create new dict with items > $50.
+   - Hint: Use dictionary comprehension.
+   - Components: items, expensive_items.
+   
+10. Contact Book: Search for a name, return number.
+    - Hint: Interactive loop + dictionary.
+    - Components: contacts.
+
+TOPIC 5: MATCH STATEMENT (PYTHON 3.10+)
+------------------------------------------------------------
+1. Simple Day: "Monday" -> "Start of week".
+   - Hint: Use case "Monday":.
+   - Components: day.
+   
+2. Grade System: "A" -> "Excellent".
+   - Hint: Match string grades.
+   - Components: grade.
+   
+3. Error Codes: "404" -> "Not Found".
+   - Hint: Match integer values.
+   - Components: code.
+   
+4. Movement Logic: "W" -> "Move Up".
+   - Hint: Handle multiple keys using |.
+   - Components: user_input.
+   
+5. Shape Area Selector: Calculate Circle or Square area.
+   - Hint: Use match to pick the formula.
+   - Components: shape, dimensions.
+   
+6. File Type Classifier: ".jpg" -> "Image".
+   - Hint: Use case _: for default/unknown.
+   - Components: extension.
+   
+7. Simple Calculator: Handle +, -, *, /.
+   - Hint: Match the operator symbol.
+   - Components: op, x, y.
+   
+8. Season Finder: "March" -> "Spring".
+   - Hint: Use case "March" | "April" | "May":.
+   - Components: month.
+   
+9. System Commands: "start", "stop", "restart".
+   - Hint: Provide feedback for invalid commands.
+   - Components: cmd.
+   
+10. Data Structure Match: Identify if input is [] or {}.
+    - Hint: Match by type/pattern.
+    - Components: obj.
+
+TOPIC 6: FUNCTIONS
+------------------------------------------------------------
+1. Greeter: Print "Hello [Name]".
+   - Hint: Define with def.
+   - Components: name parameter.
+   
+2. Square Function: Return the square of a number.
+   - Hint: Use return keyword.
+   - Components: num.
+   
+3. Metric Converter: Convert cm to inches.
+   - Hint: Multiply cm by 0.393.
+   - Components: cm.
+   
+4. Default Argument: "Hello Guest" if no name provided.
+   - Hint: name="Guest" in definition.
+   - Components: def greet().
+   
+5. List Sum Function: Return total of a list.
+   - Hint: Pass the list as an argument.
+   - Components: my_list.
+   
+6. Password Strength: Return "Strong" if length > 8.
+   - Hint: Use if/else inside function.
+   - Components: pwd.
+   
+7. Keyword Arguments: Print a flexible user bio.
+   - Hint: Use **kwargs.
+   - Components: bio(age=20, city="Lagos").
+
+8. Factorial (Recursion): Calculate factorial of n.
+   - Hint: Function calls itself.
+   - Components: n.
+   
+9. The Multi-Return: Return (Max, Min, Avg) at once.
+   - Hint: Return as a tuple.
+   - Components: calc(nums).
+   
+10. Mini Database Search: Find user in dict via function.
+    - Hint: Logic inside function to search dictionary.
+    - Components: user_id, database.
+
+============================================================
+NOTE: Once all 60 are finished, 10 Mega-Projects will be 
+unlocked combining all topics.
+============================================================
